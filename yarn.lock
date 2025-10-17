@@ -6836,7 +6836,7 @@ __metadata:
     unified: "npm:^10.1.2"
     vue: "npm:^2.7.14"
     vue-server-renderer: "npm:^2.7.14"
-    vue-template-compiler: "npm:^2.7.14"
+    vue-template-compiler: "npm:^2.7.16"
     webpack: "npm:^4.46.0"
   languageName: unknown
   linkType: soft
@@ -18569,6 +18569,16 @@ __metadata:
     de-indent: "npm:^1.0.2"
     he: "npm:^1.2.0"
   checksum: 10c0/7f261b40d088c76ce9c66dde29220d0e5df43f974895a0aee97347ac48ed0958c21272dcdf8b163dcc2b9688eca528c1d72d12b3b8b1dcae1dde6a306d7cbb20
+  languageName: node
+  linkType: hard
+
+"vue-template-compiler@npm:^2.7.16":
+  version: 2.7.16
+  resolution: "vue-template-compiler@npm:2.7.16"
+  dependencies:
+    de-indent: "npm:^1.0.2"
+    he: "npm:^1.2.0"
+  checksum: 10c0/66667ffd5095b707f169c902c4f1a011e9d5ab99fc228e4dac14eb5ca7f107ed99bff261b21578a4b391d2f3d320a8050e754404443472acad13ddaa4bd7bae2
   languageName: node
   linkType: hard
 
