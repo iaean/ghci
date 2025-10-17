@@ -4145,7 +4145,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-escapes@npm:^4.2.1, ansi-escapes@npm:^4.3.1":
+"ansi-escapes@npm:^4.2.1":
   version: 4.3.2
   resolution: "ansi-escapes@npm:4.3.2"
   dependencies:
@@ -5524,19 +5524,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-table3@npm:^0.6.0":
-  version: 0.6.5
-  resolution: "cli-table3@npm:0.6.5"
-  dependencies:
-    "@colors/colors": "npm:1.5.0"
-    string-width: "npm:^4.2.0"
-  dependenciesMeta:
-    "@colors/colors":
-      optional: true
-  checksum: 10c0/d7cc9ed12212ae68241cc7a3133c52b844113b17856e11f4f81308acc3febcea7cc9fd298e70933e294dd642866b29fd5d113c2c098948701d0c35f09455de78
-  languageName: node
-  linkType: hard
-
 "cli-table3@npm:^0.6.1, cli-table3@npm:^0.6.2":
   version: 0.6.3
   resolution: "cli-table3@npm:0.6.3"
@@ -6830,7 +6817,7 @@ __metadata:
     remark-parse: "npm:^10.0.1"
     remark-rehype: "npm:^10.1.0"
     semantic-release: "npm:^19.0.5"
-    semantic-release-plus: "npm:^19.0.2"
+    semantic-release-plus: "npm:^20.0.0"
     tailwindcss: "npm:^3.2.7"
     underscore: "npm:^1.13.6"
     unified: "npm:^10.1.2"
@@ -11245,22 +11232,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked-terminal@npm:^4.1.1":
-  version: 4.2.0
-  resolution: "marked-terminal@npm:4.2.0"
-  dependencies:
-    ansi-escapes: "npm:^4.3.1"
-    cardinal: "npm:^2.1.1"
-    chalk: "npm:^4.1.0"
-    cli-table3: "npm:^0.6.0"
-    node-emoji: "npm:^1.10.0"
-    supports-hyperlinks: "npm:^2.1.0"
-  peerDependencies:
-    marked: ^1.0.0 || ^2.0.0
-  checksum: 10c0/90f9f2f4f6b8571766010446c7b890a42cd9b55bdf6e27152867d2e3cef0ded2c85f2ef62fda9a6af39250f001e887c12176ee0d89dc98bb76a1a749099cc64e
-  languageName: node
-  linkType: hard
-
 "marked-terminal@npm:^5.0.0":
   version: 5.1.1
   resolution: "marked-terminal@npm:5.1.1"
@@ -11274,15 +11245,6 @@ __metadata:
   peerDependencies:
     marked: ^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
   checksum: 10c0/51e0e93da37df1ac508649f6a1550f7b0b1dde72071b14cc1e6f641a23801b55554b485205bf68c04188762314cd44cae84851c600e0a7083d3d94025933e226
-  languageName: node
-  linkType: hard
-
-"marked@npm:^3.0.0":
-  version: 3.0.8
-  resolution: "marked@npm:3.0.8"
-  bin:
-    marked: bin/marked
-  checksum: 10c0/29958c83ece5a318fe0f292229a4691b2f945cdb265628fecbcb9570b579937a48cdc04a0e899ae247d05d024400f24acd6fa88491e43becc9182f38e06c1de2
   languageName: node
   linkType: hard
 
@@ -12671,7 +12633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-emoji@npm:^1.10.0, node-emoji@npm:^1.11.0":
+"node-emoji@npm:^1.11.0":
   version: 1.11.0
   resolution: "node-emoji@npm:1.11.0"
   dependencies:
@@ -16187,9 +16149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release-plus@npm:^19.0.2":
-  version: 19.0.2
-  resolution: "semantic-release-plus@npm:19.0.2"
+"semantic-release-plus@npm:^20.0.0":
+  version: 20.0.0
+  resolution: "semantic-release-plus@npm:20.0.0"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^9.0.2"
     "@semantic-release/error": "npm:^3.0.0"
@@ -16208,8 +16170,8 @@ __metadata:
     hook-std: "npm:^2.0.0"
     hosted-git-info: "npm:^4.0.0"
     lodash: "npm:^4.17.21"
-    marked: "npm:^3.0.0"
-    marked-terminal: "npm:^4.1.1"
+    marked: "npm:^4.0.10"
+    marked-terminal: "npm:^5.0.0"
     micromatch: "npm:^4.0.2"
     p-each-series: "npm:^2.1.0"
     p-reduce: "npm:^2.0.0"
@@ -16222,7 +16184,7 @@ __metadata:
   bin:
     semantic-release: bin/semantic-release.js
     semantic-release-plus: bin/semantic-release.js
-  checksum: 10c0/2d2fb0effefdc7875ed0e50455bb8864130ca56a1ea66f766ba95c0196b824b5dca2d2fb3c2ea38a76624467798daf2772ae0232316957812300f81b67c89194
+  checksum: 10c0/f319d8ad7338d973617b7d5f0c0dc5913978eaaadb92369beece787d0eaafed48478f0f23765c5bb5405a0556f55067e940c255aa33d0e28d542b1f797bc013c
   languageName: node
   linkType: hard
 
@@ -17198,7 +17160,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-hyperlinks@npm:^2.1.0, supports-hyperlinks@npm:^2.2.0":
+"supports-hyperlinks@npm:^2.2.0":
   version: 2.3.0
   resolution: "supports-hyperlinks@npm:2.3.0"
   dependencies:
