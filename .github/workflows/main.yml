@@ -2,7 +2,7 @@ name: Build, release and publish
 on:
   push:
     branches:
-      - main
+      - master
       - next
       - beta
       - alpha
