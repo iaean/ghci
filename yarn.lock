@@ -5954,10 +5954,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.19.0, core-js@npm:^3.19.3":
+"core-js@npm:^3.19.0":
   version: 3.29.1
   resolution: "core-js@npm:3.29.1"
   checksum: 10c0/e5fb4a18148e76a136b5c90d994715e15ed0e42cf0f073429174204bd119f1ba81dc582fff450e3792b73825cd1fe234ad76f85567ba7943039f5842be02591c
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.46.0":
+  version: 3.46.0
+  resolution: "core-js@npm:3.46.0"
+  checksum: 10c0/12d559d39a58227881bc6c86c36d24dcfbe2d56e52dac42e35e8643278172596ab67f57ede98baf40b153ca1b830f37420ea32c3f7417c0c5a1fed46438ae187
   languageName: node
   linkType: hard
 
@@ -8407,7 +8414,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.0"
     "@tailwindcss/typography": "npm:^0.5.2"
     autoprefixer: "npm:^10.4.4"
-    core-js: "npm:^3.19.3"
+    core-js: "npm:^3.46.0"
     daisyui: "npm:2.37.0"
     eslint: "npm:^8.3.0"
     eslint-plugin-nuxt: "npm:^3.1.0"
