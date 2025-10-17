@@ -63,7 +63,7 @@
     "portal-vue": "^2.1.7",
     "postcss": "^8.4.4",
     "rehype-highlight": "^5.0.2",
-    "rehype-sanitize": "^5.0.1",
+    "rehype-sanitize": "^6.0.0",
     "rehype-stringify": "^9.0.3",
     "remark-gfm": "^3.0.1",
     "remark-parse": "^10.0.1",
