@@ -1,5 +1,5 @@
 {
-  "name": "dns3lweb",
+  "name": "ghci",
   "version": "1.0.4",
   "private": true,
   "packageManager": "yarn@4.10.3+sha512.c38cafb5c7bb273f3926d04e55e1d8c9dfa7d9c3ea1f36a4868fa028b9e5f72298f0b7f401ad5eb921749eb012eb1c3bb74bf7503df3ee43fd600d14a018266f",
@@ -14,7 +14,7 @@
     "lint": "yarn lint:js",
     "lintfix": "yarn lint:js --fix"
   },
-  "repository": "github:dns3l/web",
+  "repository": "github:iaean/ghci",
   "release": {
     "branches": [
       "['+([0-9])?(.{+([0-9]),x}).x",
@@ -33,12 +33,10 @@
     "ci": true
   },
   "devDependencies": {
-    "@semantic-release-plus/docker": "^3.1.2",
-    "@semantic-release/changelog": "^6.0.2",
-    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^7.1.0",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^19.0.5",
-    "semantic-release-plus": "^19.0.2"
+    "semantic-release": "^24.2.9"
   },
   "dependencies": {
     "@babel/core": "^7.21.3",

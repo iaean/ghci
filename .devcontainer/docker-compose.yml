@@ -1,0 +1,14 @@
+name: dns3lweb
+services:
+  devcontainer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        HTTP_PROXY: ${HTTP_PROXY}
+        HTTPS_PROXY: ${HTTPS_PROXY}
+        NO_PROXY: ${NO_PROXY}
+    env_file: devcontainer.env
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity

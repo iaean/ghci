@@ -1,0 +1,27 @@
+{
+  "name": "Alpine Node.js DevContainer",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspace",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": { }
+  },
+  "containerUser": "vscode",
+  "updateRemoteUserUID": true,
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "dev.containers.copyGitConfig": false,
+        "remote.containers.copyGitConfig": false
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-ceintl.vscode-language-pack-de",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-german",
+        "streetsidesoftware.code-spell-checker-british-english"
+      ]
+    }
+  },
+  "postCreateCommand": ".devcontainer/post-create.sh"
+}
