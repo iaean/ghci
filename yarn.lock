@@ -6831,7 +6831,7 @@ __metadata:
     remark-rehype: "npm:^10.1.0"
     semantic-release: "npm:^19.0.5"
     semantic-release-plus: "npm:^19.0.2"
-    tailwindcss: "npm:^3.2.7"
+    tailwindcss: "npm:^4.1.14"
     underscore: "npm:^1.13.6"
     unified: "npm:^10.1.2"
     vue: "npm:^2.7.14"
@@ -17306,7 +17306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3, tailwindcss@npm:^3.2.7":
+"tailwindcss@npm:^3":
   version: 3.2.7
   resolution: "tailwindcss@npm:3.2.7"
   dependencies:
@@ -17339,6 +17339,13 @@ __metadata:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
   checksum: 10c0/a36da25493efb0bbf1a5c303b2c01f2af4316f971bbd77a6bcc14b1af7afbb4f8417b808e06faa375db1a829900f14a0a1480799f0f470124f98746af73fc21e
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^4.1.14":
+  version: 4.1.14
+  resolution: "tailwindcss@npm:4.1.14"
+  checksum: 10c0/c7e9ebfb241707b2a3eb7d465fd326cc8fcfa22e7215e01f67cccec32db8a49a19e17d1f694fc5d0435d55350ea3f863521c52c9bbe6bd790c2009dc8ff516a1
   languageName: node
   linkType: hard
 
