@@ -1,4 +1,4 @@
-name: dns3lweb
+name: ghci
 services:
   devcontainer:
     build:
