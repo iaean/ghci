@@ -1,0 +1,81 @@
+{
+  "name": "dns3lweb",
+  "version": "1.0.4",
+  "private": true,
+  "packageManager": "yarn@4.10.3+sha512.c38cafb5c7bb273f3926d04e55e1d8c9dfa7d9c3ea1f36a4868fa028b9e5f72298f0b7f401ad5eb921749eb012eb1c3bb74bf7503df3ee43fd600d14a018266f",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "semantic-pre-release": "npx semantic-release -e ./pre-release.js --debug",
+    "semantic-release": "npx semantic-release -e ./release.js --debug",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js",
+    "lintfix": "yarn lint:js --fix"
+  },
+  "repository": "github:dns3l/web",
+  "release": {
+    "branches": [
+      "['+([0-9])?(.{+([0-9]),x}).x",
+      "master",
+      "next",
+      "next-major",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ],
+    "ci": true
+  },
+  "devDependencies": {
+    "@semantic-release-plus/docker": "^3.1.2",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.5",
+    "semantic-release-plus": "^19.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/eslint-parser": "^7.16.3",
+    "@lavamoat/preinstall-always-fail": "^2.1.1",
+    "@nuxt/content": "^1.15.1",
+    "@nuxtjs/auth-next": "^5.0.0-1648802546.c9880dc",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/eslint-config": "^8.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.4",
+    "core-js": "^3.19.3",
+    "daisyui": "2.37.0",
+    "eslint": "^8.3.0",
+    "eslint-plugin-nuxt": "^3.1.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "express": "^4.18.2",
+    "marked": "^4.0.18",
+    "nuxt": "^2.16.2",
+    "portal-vue": "^2.1.7",
+    "postcss": "^8.4.4",
+    "rehype-highlight": "^5.0.2",
+    "rehype-sanitize": "^5.0.1",
+    "rehype-stringify": "^9.0.3",
+    "remark-gfm": "^3.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "tailwindcss": "^3.2.7",
+    "underscore": "^1.13.6",
+    "unified": "^10.1.2",
+    "vue": "^2.7.14",
+    "vue-server-renderer": "^2.7.14",
+    "vue-template-compiler": "^2.7.14",
+    "webpack": "^4.46.0"
+  }
+}
