@@ -1,4 +1,4 @@
-FROM node:22-alpine@sha256:dbcedd8aeab47fbc0f4dd4bffa55b7c3c729a707875968d467aaaea42d6225af
+FROM node:25-alpine@sha256:809972647175c30a4c7763d3e6cc064dec588972af57e540e5a6f27442bb0845
 
 LABEL org.opencontainers.image.title="Alpine Node.js App"
 LABEL org.opencontainers.image.description="Check GitHub CI with Alpine Node.js"
