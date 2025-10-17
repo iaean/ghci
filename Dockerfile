@@ -2,9 +2,9 @@ FROM node:22-alpine@sha256:dbcedd8aeab47fbc0f4dd4bffa55b7c3c729a707875968d467aaa
 
 LABEL org.opencontainers.image.title="Alpine Node.js App"
 LABEL org.opencontainers.image.description="Check GitHub CI with Alpine Node.js"
-LABEL org.opencontainers.image.version=1.0.0
+LABEL org.opencontainers.image.version=0.0.0-semantically-released
 
-ENV VERSION=1.0.0
+ENV VERSION=0.0.0-semantically-released
 
 # provided via BuildKit
 ARG TARGETPLATFORM
