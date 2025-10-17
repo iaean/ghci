@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.21.3",
-    "@babel/eslint-parser": "^7.16.3",
+    "@babel/eslint-parser": "^7.28.4",
     "@lavamoat/preinstall-always-fail": "^2.1.1",
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/auth-next": "^5.0.0-1648802546.c9880dc",
