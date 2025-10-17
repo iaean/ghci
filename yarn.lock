@@ -5663,7 +5663,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color@npm:^4.0.1, color@npm:^4.2":
+"color@npm:^4.0.1":
   version: 4.2.3
   resolution: "color@npm:4.2.3"
   dependencies:
@@ -6262,16 +6262,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-selector-tokenizer@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "css-selector-tokenizer@npm:0.8.0"
-  dependencies:
-    cssesc: "npm:^3.0.0"
-    fastparse: "npm:^1.1.2"
-  checksum: 10c0/86f68cc666d41f9d153351677694002a9d00e2609e6abc66fcfd7f580be3d6ecc0929e46a06c621ab28da5febbb54567db9709b819414edae4a36d9ff9133e16
-  languageName: node
-  linkType: hard
-
 "css-tree@npm:^1.1.2, css-tree@npm:^1.1.3":
   version: 1.1.3
   resolution: "css-tree@npm:1.1.3"
@@ -6416,18 +6406,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:2.37.0":
-  version: 2.37.0
-  resolution: "daisyui@npm:2.37.0"
-  dependencies:
-    color: "npm:^4.2"
-    css-selector-tokenizer: "npm:^0.8.0"
-    postcss-js: "npm:^4.0.0"
-    tailwindcss: "npm:^3"
-  peerDependencies:
-    autoprefixer: ^10.0.2
-    postcss: ^8.1.6
-  checksum: 10c0/51f8b7c03d907604e6651752dc5aa2031cfa8078854eadb354d30eb806ea5aed36694049362650347525a0becf0b4ead39d13ea872cc8edb80d66f899bc29db1
+"daisyui@npm:5.3.7":
+  version: 5.3.7
+  resolution: "daisyui@npm:5.3.7"
+  checksum: 10c0/24dede8fc40cdba7ccc5804514e726f34228fb4694edaafc9e6592c55cf358a81a35ea0064bf28193519620a65d76151328eb711a1283480caa0630b0f44af85
   languageName: node
   linkType: hard
 
@@ -6814,7 +6796,7 @@ __metadata:
     "@tailwindcss/typography": "npm:^0.5.2"
     autoprefixer: "npm:^10.4.4"
     core-js: "npm:^3.19.3"
-    daisyui: "npm:2.37.0"
+    daisyui: "npm:5.3.7"
     eslint: "npm:^8.3.0"
     eslint-plugin-nuxt: "npm:^3.1.0"
     eslint-plugin-vue: "npm:^8.2.0"
@@ -7915,13 +7897,6 @@ __metadata:
   version: 1.0.16
   resolution: "fastest-levenshtein@npm:1.0.16"
   checksum: 10c0/7e3d8ae812a7f4fdf8cad18e9cde436a39addf266a5986f653ea0d81e0de0900f50c0f27c6d5aff3f686bcb48acbd45be115ae2216f36a6a13a7dbbf5cad878b
-  languageName: node
-  linkType: hard
-
-"fastparse@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "fastparse@npm:1.1.2"
-  checksum: 10c0/c08d6e7ef10c0928426c1963dd4593e2baaf44d223ab1e5ba5d7b30470144b3a4ecb3605958b73754cea3f857ecef00b67c885f07ca2c312b38b67d9d88b84b5
   languageName: node
   linkType: hard
 
@@ -17306,7 +17281,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3, tailwindcss@npm:^3.2.7":
+"tailwindcss@npm:^3.2.7":
   version: 3.2.7
   resolution: "tailwindcss@npm:3.2.7"
   dependencies:
